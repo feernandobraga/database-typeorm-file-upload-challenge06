@@ -1,0 +1,6 @@
+[X]  Create a database called gostack_desafio06_tests
+[]  POST /transactions: A rota deve receber title, value, type, e category
+[]  Ao cadastrar uma nova transação, ela deve ser armazenada dentro do seu banco de dados,
+    possuindo os campos id, title, value, type, category_id, created_at, updated_at.
+[]  Para a categoria, você deve criar uma nova tabela, que terá os campos id, title, created_at, updated_at
+[]  Before creating a category verify if already does not exists. If it does, use the ID already existent
